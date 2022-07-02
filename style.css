@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=League+Spartan:wght@400;500;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: rgb(192, 240, 240);
+}
+
+.container {
+    height: 520px;
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+header img {
+    width: 100%;
+    height: 30%;
+    display: flex
+}
+
+.main-order {
+    margin: auto;
+    width: 100%;
+    height: 150px;
+}
+
+.main-order div h2 {
+    margin: 25px auto;
+    text-align: center;
+}
+
+.main-order div p {
+    text-align: center;
+    width: 250px;
+    height: 60px;
+    margin: auto;
+    color: hsl(224, 23%, 55%);
+}
+
+.main-plan {
+    background-color: rgb(243, 241, 241);
+    margin: auto;
+    height: 70px;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 270px;
+    padding: 0;
+}
+
+.main-plan div {
+    text-align: left;
+}
+
+.main-pay {
+    display: block;
+    width: 275px;
+    height: 110px;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-pay {
+    width: 100%;
+    height: 48px;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+}
+
+.button-cancel {
+    width: 100%;
+    height: 48px;
+    background: none;
+    color: hsl(224, 23%, 55%);
+    border: none;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
